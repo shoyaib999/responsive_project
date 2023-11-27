@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: #2D9596;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+}
+#logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding: 5px 10px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+nav ul li a:hover,nav ul li a.home{
+    background-color: #BBAB8C;
+}
+#click{
+    display: none;
+}
+.menu_btn{
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+/* Responsive nav bar  */
+/* @media only screen and (max-width: 900px){
+    nav ul{
+        position: fixed;
+        top: 5px;
+        padding-top: 20px;
+        left: px;
+        background-color: red;
+        flex-direction: column;
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+    }
+    nav ul li{
+        margin: 20px 0;
+    }
+    nav ul li a{
+        font-size: 30px;
+    }
+    nav ul li a:hover , nav ul li a.home{
+        background: none;
+        color: black;
+    }
+    .menue_bth{
+        display: block;
+    }
+} */
+/* he4ader section start  */
+header{
+    background-image: url(picture/StockSnap_MHYHANF1PP.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
