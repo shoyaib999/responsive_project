@@ -78,3 +78,58 @@ header{
     background-repeat: no-repeat;
 
 }
+
+/* main first section  */
+#section_one h3{
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 1em;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#section_one{
+    background-color: #994D1C;
+    padding-bottom: 100px;
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+}
+.box_one{
+    background-color: white;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: 3px solid green;
+    box-shadow: 3px 2px 3px gray;
+}
+.box_one i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.box_one h2{
+    margin: 10px 0;
+    font-weight: bold;
+}
+/* section one responsive  */
+@media only screen and (max-width:688px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 689px) and (max-width: 1099px ) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+        width: 100%;
+}
+}
